@@ -1,0 +1,166 @@
+body{
+    background-color: aquamarine;
+    padding: 60px;
+}
+#main{
+    background-color: white;
+    margin: 50px;
+}
+nav a{
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: small;
+}
+nav{
+    padding: 1rem;
+    padding-left: 100px;
+    padding-right: 100px; 
+    background-color: white;  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    gap: 3%;
+}
+#image1{
+    display: flex;
+    gap: 20%;
+    margin: 20px;
+}
+#icons{
+    display: flex;
+    gap:9%;
+    
+}
+button{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 50px;
+    height: 70px;
+    border-color: aquamarine;
+    width: 200px;
+}
+#image{
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+#im{
+    height: 70px;
+    gap: 30%;
+    width: 100px;
+   
+}
+#p{
+    text-align: center;
+    margin-top: 20px;
+}
+#last{
+    background-color: rgb(89, 206, 206);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#find{
+    border: solid 0.25px;
+    display: flex;
+    gap: 170px;
+    border-radius: 40px;
+    padding-left: 20px;
+    width: 600px;
+}
+#butt{
+    gap:10px;
+    display: flex;
+    margin-left: 90px;
+}
+@media screen and (min-width:279px) and (max-width:420px) {
+    #icons{
+        flex-wrap: wrap;
+        gap:3%; 
+        overflow: hidden; 
+    }
+    #p{
+        text-align: center;
+        margin-top: 10px;
+        font-size: x-small;
+        overflow: hidden;
+    }
+    body{
+        background-color: aquamarine;
+        padding: 0px;
+    
+    }
+    #butt{
+        gap:2px;
+        display: flex;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    #image1{
+        display: grid;
+        gap: 3%;
+        margin: 10px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    #image{
+        height: 20vh;
+        object-fit: cover;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    #find{
+        border: solid 0.25px;
+        display: flex;
+        gap: 4px;
+        border-radius: 40px;
+        padding-left: 10px;
+        width: 210px;
+        font-size: 11px;
+        overflow: hidden;
+    }
+    button{
+        background-color: aquamarine;
+        color: white;
+        border-radius: 50px;
+        height: 50px;
+        border-color: aquamarine;
+        width: 120px;
+        font-size: 15px;
+        overflow: hidden;
+    }
+    nav a{
+        color: rgb(22, 21, 21);
+        text-decoration: none;
+        font-size: 1rem;
+        font-size: x-small;
+        overflow: hidden;
+    }
+    nav{
+        padding: 1rem;
+        padding-left: 1px;
+        padding-right: 1px; 
+        background-color: white;  
+        margin-left: 3%;
+        margin-right: 3%;
+        overflow: hidden;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        display: grid;
+        font-size: x-small;
+        gap: 5%;
+        overflow: hidden;
+    }
+}
