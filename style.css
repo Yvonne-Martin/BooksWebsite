@@ -1,166 +1,119 @@
-body{
-    background-color: aquamarine;
-    padding: 60px;
-}
-#main{
+
+#book{
     background-color: white;
-    margin: 50px;
+    padding: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+#header{
+    margin-left: 15%;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
 }
 nav a{
-    color: rgb(22, 21, 21);
     text-decoration: none;
-    font-size: 1rem;
-    font-size: small;
+    color: #7e7373;
+    
 }
-nav{
-    padding: 1rem;
-    padding-left: 100px;
-    padding-right: 100px; 
-    background-color: white;  
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 nav ul{
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: space-between;
-    font-size: large;
-    gap: 3%;
+    justify-content: space-around;
+    gap: 50px;
+    
 }
-#image1{
+#header-buttons{
+    gap: 50px;
     display: flex;
-    gap: 20%;
-    margin: 20px;
+}
+#landingimage{
+    background-color: rgb(235, 185, 93);
+    border-radius: 50%;
+    height: 50vh;
+}
+.login{
+    border: none;
+}
+.start-button{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 60%;
+    height: 5vh;
+    background-color: dodgerblue;
+    color: white;
+}
+#input_button{
+    position: relative;
+    display: inline-block;
+}
+#imagediv{
+border-radius: 50%;
+height: 3vh;
+}
+.image{
+    border-radius: 50%;
+    width: 200%;
+    object-fit: cover;
+}
+#Find{
+    display: flex; 
+    margin-left: 15%;  
+}
+h2{
+    font-size: 300%;
+}
+#footerHeading{
+    text-align: center;
+
+}
+.FooterImage{
+    width: 10%;
+    height: 7vh;
+}
+#footerdivision{
+    background-color: rgb(207, 238, 236);
+    padding: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 90vw;
+}
+#footer-images{
+    display: flex;
+    gap: 10%;
+}
+.img2{
+    width: 5%;
+    height: 3vh;
+}
+.toggle{
+    position: relative;
+    display: inline-block;
+    width: 260px;
+}
+.toggle input{
+    border: 0px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    width: 200%;
+    min-height: 8vh;
+}
+.toggle button{
+    position: absolute;
+    margin-left: 450px;
+    top: 20%;
+    width: 40%;
+    border: none;
+    background-color: rgb(113,182,176);
+    border-radius: 20%;
+    min-height: 5vh;
 }
 #icons{
     display: flex;
-    gap:9%;
-    
+    margin-left: 20%;
 }
-button{
-    background-color: aquamarine;
-    color: white;
-    border-radius: 50px;
-    height: 70px;
-    border-color: aquamarine;
-    width: 200px;
+h1{
+    font-family: poppins;
 }
-#image{
-    height: 40vh;
-    object-fit: cover;
-    border-radius: 50%;
-   
-}
-#im{
-    height: 70px;
-    gap: 30%;
-    width: 100px;
-   
-}
-#p{
-    text-align: center;
-    margin-top: 20px;
-}
-#last{
-    background-color: rgb(89, 206, 206);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#find{
-    border: solid 0.25px;
-    display: flex;
-    gap: 170px;
-    border-radius: 40px;
-    padding-left: 20px;
-    width: 600px;
-}
-#butt{
-    gap:10px;
-    display: flex;
-    margin-left: 90px;
-}
-@media screen and (min-width:279px) and (max-width:420px) {
-    #icons{
-        flex-wrap: wrap;
-        gap:3%; 
-        overflow: hidden; 
-    }
-    #p{
-        text-align: center;
-        margin-top: 10px;
-        font-size: x-small;
-        overflow: hidden;
-    }
-    body{
-        background-color: aquamarine;
-        padding: 0px;
-    
-    }
-    #butt{
-        gap:2px;
-        display: flex;
-        margin-left: 10px;
-        overflow: hidden;
-    }
-    #image1{
-        display: grid;
-        gap: 3%;
-        margin: 10px;
-        font-size: 18px;
-        overflow: hidden;
-    }
-    #image{
-        height: 20vh;
-        object-fit: cover;
-        border-radius: 50%;
-        overflow: hidden;
-    }
-    #find{
-        border: solid 0.25px;
-        display: flex;
-        gap: 4px;
-        border-radius: 40px;
-        padding-left: 10px;
-        width: 210px;
-        font-size: 11px;
-        overflow: hidden;
-    }
-    button{
-        background-color: aquamarine;
-        color: white;
-        border-radius: 50px;
-        height: 50px;
-        border-color: aquamarine;
-        width: 120px;
-        font-size: 15px;
-        overflow: hidden;
-    }
-    nav a{
-        color: rgb(22, 21, 21);
-        text-decoration: none;
-        font-size: 1rem;
-        font-size: x-small;
-        overflow: hidden;
-    }
-    nav{
-        padding: 1rem;
-        padding-left: 1px;
-        padding-right: 1px; 
-        background-color: white;  
-        margin-left: 3%;
-        margin-right: 3%;
-        overflow: hidden;
-    }
-    nav ul{
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-        display: grid;
-        font-size: x-small;
-        gap: 5%;
-        overflow: hidden;
-    }
-}
+
